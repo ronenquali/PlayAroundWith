@@ -1,0 +1,35 @@
+[33mcommit f23090fb414cd474bf1851339940db56cd0fdef0[m[33m ([m[1;36mHEAD -> [m[1;32mfeature1[m[33m)[m
+Author: ronenquali <ronenquali@gmail.com>
+Date:   Sat Sep 9 18:34:58 2017 +0300
+
+    added file2 to featurebranch1
+
+[33mcommit 27c8ba1800b5963c43d1cb723f894ae0d5b29cde[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/feature1[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: ronenquali <ronenquali@gmail.com>
+Date:   Sat Sep 9 18:09:34 2017 +0300
+
+    added a new file
+
+[33mcommit 5086ecd7fde1d79af23be6f0e6116cb0cacebfab[m
+Author: ronenquali <ronenquali@users.noreply.github.com>
+Date:   Wed May 17 14:53:52 2017 +0300
+
+    Update README.md
+
+[33mcommit 1fb2d349fd8c45061b2530f179986470001a36d2[m
+Author: ronenquali <ronenquali@users.noreply.github.com>
+Date:   Wed May 17 14:47:53 2017 +0300
+
+    Update README.md
+
+[33mcommit daacc8ad8c84a98ec39afb5de2cf9bfdd92baba6[m
+Author: ronenquali <ronenquali@users.noreply.github.com>
+Date:   Wed May 17 14:47:18 2017 +0300
+
+    Update README.md
+
+[33mcommit 62be90e3c3769cd4a776f3ca560627c649d664eb[m
+Author: ronenquali <ronenquali@users.noreply.github.com>
+Date:   Wed May 17 11:46:19 2017 +0300
+
+    Initial commit
