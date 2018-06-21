@@ -20,3 +20,5 @@ infrastructure:
         path: ''
 kind: application
 spec_version: 1
+inputs:
+- image_tag
