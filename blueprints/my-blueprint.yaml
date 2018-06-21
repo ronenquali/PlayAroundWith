@@ -1,22 +1,11 @@
-configuration:
-  healthcheck:
-    script: hc.sh
-    timeout: 1000
-  initialization:
-    script: cm.sh
-  start:
-    script: cm-command.sh
-source:
-  image:
-    docker_image:
-    - name: node
-      tag: $image_tag
-  os_type: linux
-infrastructure:
-  connectivity:
-    external:
-    - port_info:
-        port: 3000
-        path: ''
-kind: application
+kind: blueprint
+clouds:
+- kubernetes-testing
+applications:
+- my-app:
+    input_values:
+    - image_tag: $my_app_image_tag
 spec_version: 1
+environmentType: sandbox
+inputs:
+- my_app_image_tag: none
