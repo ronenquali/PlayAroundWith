@@ -1,0 +1,22 @@
+configuration:
+  healthcheck:
+    script: hc.sh
+    timeout: 1000
+  initialization:
+    script: cm.sh
+  start:
+    script: cm-command.sh
+source:
+  image:
+    docker_image:
+    - name: node
+      tag: $image_tag
+  os_type: linux
+infrastructure:
+  connectivity:
+    external:
+    - port_info:
+        port: 3000
+        path: ''
+kind: application
+spec_version: 1
